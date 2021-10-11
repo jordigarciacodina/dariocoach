@@ -140,7 +140,7 @@ function bs_display_front_page_sections() {
 		 <div class="wrap">
 		 	<h3><?php echo get_theme_mod('testimonios_content_title'); ?></h3>
 			<div class="testimonials-wrapper">	<?php
-				$content = get_post_field( 'post_content', 210);
+				$content = get_post_field( 'post_content', 138);
 					if ( ! $content ) {
 						return;
 					}

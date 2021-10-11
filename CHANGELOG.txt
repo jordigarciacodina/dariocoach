@@ -1,4 +1,4 @@
-# Memberships Starter Theme Changelog
+# Darío Coach Theme Changelog
 
 ## [1.0.0] - XXXX-XX-XX
 * Initial release!

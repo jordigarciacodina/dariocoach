@@ -1,10 +1,10 @@
 <?php
 /**
- * Memberships Starter.
+ * Darío Coach.
  *
- * This file adds the 494 page template to the Memberships Starter Theme.
+ * This file adds the 494 page template to the Darío Coach Theme.
  *
- * @package Memberships Starter
+ * @package Darío Coach
  * @author  Bicicleta Studio
  * @license GPL-2.0-or-later
  * @link    https://bicicleta.studio

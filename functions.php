@@ -239,16 +239,6 @@ function bs_logout_menu_link( $items, $args ) {
    return $items;
 }
 
-// Define is_child() function
-function is_child($pageID) {
-    global $post;
-    if (is_page() && $post->post_parent == $pageID) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 // Register social menu
 add_action('init', 'bs_register_social_menu');
 function bs_register_social_menu() {
