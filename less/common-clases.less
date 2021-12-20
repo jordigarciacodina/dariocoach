@@ -202,8 +202,6 @@ figcaption,
 --------------------------------------------- */
 
 .checkout-page {
-	max-width: @template-max-width;
-	margin: 0 auto;
 	.site-header {
 		position: -webkit-sticky;
 		position: sticky;
@@ -217,6 +215,8 @@ figcaption,
 		}
 	}
     .site-inner {
+		max-width: @template-max-width!important;
+		margin: 0 auto!important;
 		background-color: @base-color;
 		color: @primary-color;
 		width: 100%;

@@ -6,6 +6,9 @@
 .woocommerce-page .site-inner {
 	background-color: @background-page!important;
 	margin: 0 auto!important;
+	.woocommerce-notices-wrapper {
+		display: none!important;
+	}
 }
 
 /* Content Restriction */
@@ -67,8 +70,13 @@
 	background: @background-color!important;
 }
 
-#payment {
+#payment,
+.place-order {
 	padding: 0 !important;
+}
+
+.place-order {
+	padding-top: 30px!important;
 }
 
 .payment_method_stripe {
@@ -109,8 +117,13 @@ label[for="shipping_phone"],
 .woocommerce-cart #payment div.payment_box:before,
 .woocommerce-checkout #payment div.payment_box:before,
 label[for=card-element],
-#stripe-payment-data p {
+#stripe-payment-data p,
+label[for="payment_method_stripe"] {
 	display: none !important;
+}
+
+.recurring-total {
+	color: @primary-color;
 }
 
 #add_payment_method #payment ul.payment_methods li,
@@ -126,8 +139,12 @@ label[for=card-element],
 }
 
 .wc-stripe-elements-field,
-.wc-stripe-iban-element-field {
+.wc-stripe-iban-element-field,
+.wc_payment_method {
 	padding: 12px !important;
+	#wc-stripe-cc-form {
+		margin-top: 0!important;
+	}
 }
 
 .woocommerce #respond input#submit,
