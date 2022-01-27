@@ -1,4 +1,4 @@
 # Darío Coach Theme Changelog
 
-## [1.0.0] - XXXX-XX-XX
+## [1.0.0] - 2022-01-28
 * Initial release!
